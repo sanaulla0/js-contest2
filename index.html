@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>js-contest-2</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <form name="fr" id="form">
+ <p>Email </p>
+  <input type="email" name="em" id="mail" onchange="email()" style="width:500px; border-radius: 5px; padding: 5px;" placeholder="enter your mail">
+  <div id="message" name="m"></div>
+  <br>
+  
+  <p >Password</p>
+  <input type="password" name="ps" id="pass"  onchange="password()" style="width: 500px; border-radius: 5px; padding: 5px;" placeholder="enter your password">
+  <div class="mess" name="p"></div>
+ 
+ <br>
+  <div id="correct"></div><br>
+ <button type="submit" id="btn">submit</button>
+</form>
+ <script src="script.js"></script>
+</body>
+</html>
